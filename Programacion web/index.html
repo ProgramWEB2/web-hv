@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Cristian Daniel Zamora Morales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Estudiante de Tecnología en Sistemas de la Información | Analista Infraestructura de TI</p>
+            <img src="4_ejemplo_luz_perfecta_1.jpg" alt="Cristian Daniel Zamora Morales" width="100" height="100">
+        </header>
+        <section>
+            <h1>CRISTIAN DANIEL ZAMORA</h1>
+            <h2>Datos de Contacto</h2>
+            <div id="contactInfo">
+                <p id="contactText1">Santiago de Cali - Valle Del Cauca</p>
+                <p id="contactText2">Unidad Bosques De Ciudad 2000, Cl. 34 #68b-81, Cali, Valle del Cauca</p>
+                <p id="contactText3">Tel: 3145597122</p>
+                <p id="contactText4">20 años de edad</p>
+            </div>
+            <button id="addContact">Agregar Contacto</button>
+            <button id="editContactInfo">Editar Datos de Contacto</button>
+            <button id="deleteContact">Eliminar Contacto</button>
+        </section>
+        <section>
+            <h2>Objetivos</h2>
+            <ul id="objectivesList">
+                <li>Quiero aprender a programar para realizar páginas web y aplicaciones web.</li>
+                <li> Aprender y Dominar Tecnologías Específicas: En el próximo año, me propongo dominar tecnologías específicas como React y Node.js para construir aplicaciones web interactivas."
+                    Desarrollar Proyectos Personales: Quiero desarrollar al menos tres proyectos web personales para mejorar mis habilidades en desarrollo</li>
+                <li> Obtención de Certificaciones: Planeo obtener certificaciones en ciberseguridad y desarrollo web avanzado para fortalecer mi perfil profesional</li>
+            </ul>
+            <button id="addObjective">Agregar Objetivo</button>
+            <button id="deleteObjective">Eliminar Objetivo</button>
+            <button id="editObjectives">Editar Objetivos</button>
+        </section>
+        <section>
+            <h2>Habilidades</h2>
+            <button id="addTask">Agregar Habilidad</button>
+            <button id="deleteTask">Eliminar Habilidad</button>
+            <button id="editTask">Editar Habilidad</button>
+            <ul id="tasksList">
+                <li>Monitoreo de equipos de red</li>
+                <li>Gestión de infraestructura tecnológica</li>
+                <li>Manejo de firewall y servidor principal</li>
+                <li>Conocimiento en protocolos de red (HTTPS, HTTP, TCP/UDP, DNS)</li>
+                <li>Administración de Directory Active y accesos de red</li>
+                <li>Soporte técnico y administración de Office 365</li>
+                <li>Virtualización con VMWARE</li>
+                <li>Gestión de ciberseguridad y antivirus Kaspersky</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Experiencia Laboral</h2>
+            <ul id="experienceList">
+                <li>Analista de tecnología, SuperGIROS (1 año)</li>
+                <li>Analista de tecnología, BluelinkBPO - Filial de SuperGIROS (1 año)</li>
+            </ul>
+            <button id="addExperience">Agregar Experiencia</button>
+            <button id="deleteExperience">Eliminar Experiencia</button>
+            <button id="editExperience">Editar Experiencia Laboral</button>
+        </section>
+        <footer>
+            <p><a href="https://www.linkedin.com/in/cristian-daniel-zamora-b975aa272/">LinkedIn</a> | <a href="https://github.com/ProgramWEB2/reposit/tree/main/Programacion%20web">GitHub</a></p>
+        </footer>
+
+        <!-- Formulario para editar textos -->
+        <div id="editForm" style="display: none;">
+            <h3>Editar Información</h3>
+            <textarea id="editTextArea" rows="4" cols="50"></textarea>
+            <button id="saveChanges">Guardar Cambios</button>
+            <button id="cancelEdit">Cancelar</button>
+        </div>
+    </div>
+</body>
+</html>
